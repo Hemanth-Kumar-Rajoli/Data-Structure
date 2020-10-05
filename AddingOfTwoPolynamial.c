@@ -107,6 +107,7 @@ int main(){
 		new -> next =Null;
 		curr2= curr2->next;
 	}
+	//result poly
 	while(poly3){
 		printf("%d->%d\n",poly3->coeff,poly3->exp);
 		poly3=poly3->next;
