@@ -1,6 +1,6 @@
 // converting the infix expression in to the postfix expression
 //here postfix stack head is located to the bottom
-//here operators(stack) head is located to the top
+//here operators(stack) head is located to the top 
 
 #include<stdio.h>
 #include<stdlib.h>
