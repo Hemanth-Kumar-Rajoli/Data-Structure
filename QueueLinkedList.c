@@ -50,7 +50,7 @@ void insert(int pushIt){
 	Node *new = (Node *)malloc(sizeof(Node));
 	new->value=pushIt;
 	new->next=NULL;
-	if(rare)
+	if(front)
 		rare->next=new;
 	else
 		front = new;
